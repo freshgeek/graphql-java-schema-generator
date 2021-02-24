@@ -1,0 +1,33 @@
+<idea-plugin>
+  <id>com.your.company.unique.plugin.id</id>
+  <name>graphql-java-schema-generator</name>
+  <version>1.0</version>
+  <vendor email="1163518793@qq.com" url="https://github.com/freshgeek">fresh geek </vendor>
+
+  <description><![CDATA[
+    用于在graphql java 环境中自动创建 schema 文件 <br>
+    这样我们可以在已有接口与对象的基础之上生成对应的  .graphqls 文件<br>
+
+    搭配springboot jpa 等框架，提供接口的同时可以直接提供graphql接口
+]]></description>
+  <change-notes><![CDATA[用于在graphql java 环境中自动创建 schema 文件 <br>
+    这样我们可以在已有接口与对象的基础之上生成对应的  .graphqls 文件<br>
+
+    搭配springboot jpa 等框架，提供接口的同时可以直接提供graphql接口 ]]></change-notes>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
